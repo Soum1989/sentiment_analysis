@@ -1,8 +1,6 @@
 flask
-textblob
-nltk
+transformers
+torch
 pandas
 openpyxl
 gunicorn
-transformers
-torch
