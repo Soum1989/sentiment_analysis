@@ -1,4 +1,4 @@
-blinker @ file:///C:/b/abs_b1i87khtob/croot/blinker_1737448732095/work
+blinker==1.9.0
 Brotli @ file:///C:/b/abs_c415aux9ra/croot/brotli-split_1736182803933/work
 certifi @ file:///C:/b/abs_3beajm7umk/croot/certifi_1745939228545/work/certifi
 chardet==5.2.0
