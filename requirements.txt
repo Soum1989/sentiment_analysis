@@ -4,3 +4,5 @@ nltk
 pandas
 openpyxl
 gunicorn
+transformers
+torch
