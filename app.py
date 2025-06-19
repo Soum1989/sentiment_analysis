@@ -10,7 +10,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(PROCESSED_FOLDER, exist_ok=True)
 
 # Load sentiment analysis model
-classifier = pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english")
+classifier = pipeline("sentiment-analysis")
 
 @app.route("/", methods=["GET", "POST"])
 def index():
