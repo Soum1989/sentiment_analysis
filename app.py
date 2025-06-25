@@ -1,3 +1,4 @@
+app = Flask(__name__, static_folder='static')
 from flask import Flask, request, render_template, send_from_directory
 import pandas as pd
 from textblob import TextBlob
@@ -62,4 +63,4 @@ def get_file(filename):
     return send_from_directory(PROCESSED_FOLDER, filename, as_attachment=True)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False))
