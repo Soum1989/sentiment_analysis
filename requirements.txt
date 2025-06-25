@@ -1,5 +1,5 @@
-flask==2.2.5
-pandas
-textblob
-openpyxl     # Required for reading/writing .xlsx files via pandas
-gunicorn     # Required by Render to run Flask
+flask==3.1.0
+pandas==2.3.0
+textblob==0.19.0
+openpyxl==3.1.5
+gunicorn==23.0.0
